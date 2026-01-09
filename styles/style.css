@@ -304,7 +304,7 @@
 
 .cta {
   background: #ffffff;
-  padding: 120px 0;  
+  padding: 120px 0; 
 }
 
 .cta-container {
@@ -317,6 +317,7 @@
   background: #f5f3ee;
   padding: 80px 24px;     
   text-align: center;
+  border-radius: 10px;
 }
 
 .cta-title {
