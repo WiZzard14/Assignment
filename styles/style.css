@@ -288,3 +288,140 @@
   display: block;
   object-fit: contain;
 }
+
+.cta {
+  background: #ffffff;
+  padding: 120px 0;  
+}
+
+.cta-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 120px;
+}
+
+.cta-box {
+  background: #f5f3ee;
+  padding: 80px 24px;     
+  text-align: center;
+}
+
+.cta-title {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 800;
+  color: #0f2233;
+}
+
+.cta-subtitle {
+  margin-top: 12px;
+  font-size: 13px;
+  line-height: 20px;
+  color: #6b7c93;
+}
+
+.cta-btn {
+  margin-top: 22px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 12px 18px;
+  border-radius: 8px;
+  background: #2f7a58;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 13px;
+
+  box-shadow: 0 10px 18px rgba(47, 122, 88, 0.25);
+}
+
+.cta-btn:hover {
+  background: #256545;
+}
+
+.cta-arrow {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.cta-footnote {
+  margin-top: 14px;
+  font-size: 12px;
+  color: #6b7c93;
+}
+
+.footer {
+  background: #071c2e;        
+  padding: 120px 0 30px;   
+  color: #ffffff;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 120px;
+}
+
+.footer-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
+.footer-social {
+  text-align: right;
+}
+
+.footer-social-title {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer-social-icons {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.social-icon {
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: #ffffff;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  text-decoration: none;
+}
+
+.social-icon img {
+  width: 12px;
+  height: 12px;
+  display: block;
+  object-fit: contain;
+}
+
+.footer-bottom {
+  margin-top: 22px;
+  text-align: center;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.75);
+}
